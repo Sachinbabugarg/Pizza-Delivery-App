@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* background-color: #fff;
+    width: 100%;
+    height: 100vh; */
+}
+
+.containers {
+  padding: 5% 10%;
+}
+
+/* input{
+    width:30px;
+    height: 20px;
+    padding: 2px 2px;
+} */
+
+.Order {
+  width: 30px;
+  height: 20px;
+  padding: 2px 2px;
+}
+
+.bookpizzaform {
+  position: absolute;
+  top: -5%;
+  width: 200%;
+  background-color: rgb(255, 255, 255);
+  /* margin-top: 20%; */
+  padding: 10% 5% 0 5%;
+  box-shadow: 5px 7px 5px rgba(83, 83, 83, 0.219);
+}
+
+.orderbtn {
+  margin-left: 10% !important;
+  box-shadow: 0 0 5px 0 #72ffff, 0 0 5px 0 #72ffff, 0 0 5px 0 #72ffff inset;
+  padding: 8px;
+  font-family: sans-serif;
+  border-radius: 30px;
+  box-shadow: 0 5px #999;
+}
+
+#orderheader {
+  background-color: #cdf0ea;
+  color: black;
+  padding: 40px;
+  text-align: center;
+  font-family: Helvetica;
+}

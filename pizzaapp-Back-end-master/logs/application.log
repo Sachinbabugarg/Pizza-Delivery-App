@@ -1,0 +1,24 @@
+2024-02-27 21:50:52.770  INFO 5832 --- [restartedMain] com.pizzaApp.PizzaAppApplication         : Starting PizzaAppApplication using Java 17.0.2 on DESKTOP-B8QR7TN with PID 5832 (C:\Users\HP\Downloads\pizzaapp-Back-end-master\target\classes started by HP in C:\Users\HP\Downloads\pizzaapp-Back-end-master)
+2024-02-27 21:50:52.779  INFO 5832 --- [restartedMain] com.pizzaApp.PizzaAppApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-02-27 21:50:53.060  INFO 5832 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-02-27 21:50:53.065  INFO 5832 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-02-27 21:50:55.534  INFO 5832 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-27 21:50:55.650  INFO 5832 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 96 ms. Found 4 JPA repository interfaces.
+2024-02-27 21:50:57.270  INFO 5832 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-02-27 21:50:57.285  INFO 5832 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-27 21:50:57.286  INFO 5832 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2024-02-27 21:50:57.469  INFO 5832 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-27 21:50:57.469  INFO 5832 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4402 ms
+2024-02-27 21:50:58.086  INFO 5832 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-27 21:50:58.211  INFO 5832 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2024-02-27 21:50:59.002  INFO 5832 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-02-27 21:50:59.219  INFO 5832 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-02-27 21:51:00.506  INFO 5832 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-02-27 21:51:00.694  INFO 5832 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2024-02-27 21:51:03.663  INFO 5832 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-02-27 21:51:03.709  INFO 5832 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-27 21:51:04.930  WARN 5832 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-27 21:51:05.662  INFO 5832 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-02-27 21:51:05.983  INFO 5832 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-02-27 21:51:06.008  INFO 5832 --- [restartedMain] com.pizzaApp.PizzaAppApplication         : Started PizzaAppApplication in 14.457 seconds (JVM running for 15.679)
+2024-02-27 22:58:47.434  WARN 5832 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12m51s555ms610µs300ns).
